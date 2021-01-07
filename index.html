@@ -50,6 +50,7 @@
                     <div class="subheading mb-5">
                         <!--Test Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·-->
                         Enthusiastic in the field of Computer Vision, Machine Learning and Robotics
+                        <br/>
                         <a href="mailto:name@email.com">max.durner@gmail.com</a>
                     </div>
                     <p class="lead mb-5">I am researcher at the Department of Perception and Cognition at the Institute of Robotics and Mechatronics, German Aerospace Center (DLR). My current research interests include Computer Vision, Artificial Intelligence, and Robotics.</p>
@@ -962,37 +963,66 @@
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                                 M. Durner, Z.-C. Marton, U. Hillenbrand, H. Ali, and M. Kleinsteuber.                                     
                                              <!--<a href="#" onclick="return false;" role="button" class="btn-link" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">   -->
+                                            <a href="" data-toggle="modal" data-target="#abstractModal">
+                                                Active classifier selection for RGB-D object categorization using a Markov Random Field ensemble method.
+                                            </a>
+                                            <div class="modal fade" id="abstractModal" tabindex="-1" role="dialog" aria-labelledby="abstractModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Abstract</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    In this work, a new ensemble method for the task of category recognition in different environments is presented. The focus is on service robotic perception in an open environment, where the robot’s task is to recognize previously unseen objects of predefined categories, based on training on a public dataset. We propose an ensemble learning approach to be able to flexibly combine complementary sources of information (different state-of-the-art descriptors computed on color and depth images), based on a Markov Random Field (MRF). By exploiting its specific characteristics, the MRF ensemble method can also be executed as a Dynamic Classifier Selection (DCS) system. In the experiments, the committee- and topology-dependent performance boost of our ensemble is shown. Despite reduced computational costs and using less information, our strategy performs on the same level as common ensemble approaches. Finally, the impact of large differences between datasets is analyzed.
+                                                  </div>
+                                                  <div class="modal-footer font-italic">
+                                                    Proceedings of the 9th Int. Conf. on Machine Vision (ICMV 2016), Nice, France, March 2017
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <!--
                                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
                                                 Active classifier selection for RGB-D object categorization using a Markov Random Field ensemble method.
                                             </a>
                                             <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                                                 <div class="card card-body">
-                                                    <!--<div class="panel-body">-->
+                                                    commented <div class="panel-body">
                                                     <p class="font-weight-bold mb-2"> Abstract: </p> </br>
                                                     <p class="mb-3">
-                                                    In this work, a new ensemble method for the task of category recognition in different envi- ronments is presented. The focus is on service robotic perception in an open environment, where the robot’s task is to recognize previously unseen objects of predefined categories, based on training on a public dataset. We propose an ensemble learning approach to be able to flexibly combine complementary sources of information (different state-of-the-art de- scriptors computed on color and depth images), based on a Markov Random Field (MRF). By exploiting its specific characteristics, the MRF ensemble method can also be executed as a Dynamic Classifier Selection (DCS) system. In the experiments, the committee- and topology-dependent performance boost of our ensemble is shown. Despite reduced com- putational costs and using less information, our strategy performs on the same level as common ensemble approaches. Finally, the impact of large differences between datasets is analyzed.
+                                                    ########ABSTRACT##########
                                                     </p>
                                                     <div class="font-italic">
                                                     Proceedings of the 9th Int. Conf. on Machine Vision (ICMV 2016), Nice, France, March 2017
                                                     </div>
                                                 </div>
                                             </div>
+                                            -->
                                             <!--
                                             <a href="#" onclick="return false;" role="button" class="btn-link" data-toggle="popover" title="abstract" data-content="...." placement="bottom" data-original-title="test title">Text to click</a>
                                             -->
                                             ICMV (Best Oral Presentation)
                                         </div>
                                     <div>
-                                        <a class="btn btn-outline-primary my-1 mr-1 btn-xsm" href="https://www.youtube.com/watch?v=wCTkSxcna8o" target="_blank" rel="noopener">
+                                        <a class="btn btn-outline-primary my-1 mr-1 btn-xsm" href="https://rmc.dlr.de/rm/de/staff/extcms/images/rmc/users/hillenbd/Durner_etal_16.pdf" target="_blank" rel="noopener">
                                         pdf
                                         </a>
-                                        <a class="btn btn-outline-primary my-1 mr-1 btn-xsm" href="https://www.youtube.com/watch?v=wCTkSxcna8o" target="_blank" rel="noopener">
-                                        cite
-                                        </a>
+
+                                        <button class = 'btn btn-default' data-toggle='modal' data-target='#citeModal' data-filecontents="cite.txt"> cite </button>
+                                        <div id="citeModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="citeModalLabel">
+                                          <div class="modal-dialog modal-sm" role="document">
+                                            <div class="modal-content">
+                                            </div>
+                                          </div>
+                                        </div>
+
                                     </div>
                                     </div>
                                     <div class="flex-shrink-0">
-                                        <span class="text-primary">2017</span>
+                                        <span class="text-primary">2016</span>
                                     </div>
                                 </div>
                             </div>
@@ -1000,6 +1030,36 @@
                     </div>
 
             </section>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-filename="cite.txt">Open modal for @getbootstrap</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                        <!--<object data="file.txt"></object>-->
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="control-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Interests-->
             <!--
             <section class="resume-section" id="interests">
