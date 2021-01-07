@@ -2941,6 +2941,13 @@ fieldset:disabled a.btn {
   border-radius: 0.2rem;
 }
 
+.btn-xsm, .btn-group-xsm > .btn {
+  padding: 0.02rem 0.4rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
 .btn-block {
   display: block;
   width: 100%;
@@ -10132,4 +10139,17 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+
+.btn-link.btn-anchor {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
 }
