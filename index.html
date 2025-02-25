@@ -476,17 +476,22 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             M. Ulmer, L. Klüpfel, <span class="font-weight-bold">M. Durner</span>, and R. Triebel
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            How Important are Data Augmentations to Close the Domain Gap for Object Detection in Orbit?
+                                            <a href="" data-toggle="modal" data-target="#abstractModal35">
+                                                How Important are Data Augmentations to Close the Domain Gap for Object Detection in Orbit?
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    We investigate the efficacy of data augmentations to close the domain gap in spaceborne computer vision, crucial for autonomous operations like on-orbit servicing. As the use of computer vision in space increases, challenges such as hostile illumination and low signal-to-noise ratios significantly hinder performance. While learning-based algorithms show promising results, their adoption is limited by the need for extensive annotated training data and the domain gap that arises from differences between synthesized and real-world imagery. This study explores domain generalization in terms of data augmentations -- classical color and geometric transformations, corruptions, and noise -- to enhance model performance across the domain gap. To this end, we conduct an large scale experiment using a hyperparameter optimization pipeline that samples hundreds of different configurations and searches for the best set to bridge the domain gap. As a reference task, we use 2D object detection and evaluate on the SPEED+ dataset that contains real hardware-in-the-loop satellite images in its test set. Moreover, we evaluate four popular object detectors, including Mask R-CNN, Faster R-CNN, YOLO-v7, and the open set detector GroundingDINO, and highlight their trade-offs between performance, inference speed, and training time. Our results underscore the vital role of data augmentations in bridging the domain gap, improving model performance, robustness, and reliability for critical space applications. As a result, we propose two novel data augmentations specifically developed to emulate the visual effects observed in orbital imagery. We conclude by recommending the most effective augmentations for advancing computer vision in challenging orbital environments. Code for training detectors and hyperparameter search will be made publicly available. 
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    IEEE Aerospace Conference, Big Sky, MT, USA, March 2025 
+                                            <div class="modal fade" id="abstractModal35" tabindex="-1" role="dialog" aria-labelledby="abstractModal35Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel35">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        We investigate the efficacy of data augmentations to close the domain gap in spaceborne computer vision, crucial for autonomous operations like on-orbit servicing. As the use of computer vision in space increases, challenges such as hostile illumination and low signal-to-noise ratios significantly hinder performance. While learning-based algorithms show promising results, their adoption is limited by the need for extensive annotated training data and the domain gap that arises from differences between synthesized and real-world imagery. This study explores domain generalization in terms of data augmentations -- classical color and geometric transformations, corruptions, and noise -- to enhance model performance across the domain gap. To this end, we conduct an large scale experiment using a hyperparameter optimization pipeline that samples hundreds of different configurations and searches for the best set to bridge the domain gap. As a reference task, we use 2D object detection and evaluate on the SPEED+ dataset that contains real hardware-in-the-loop satellite images in its test set. Moreover, we evaluate four popular object detectors, including Mask R-CNN, Faster R-CNN, YOLO-v7, and the open set detector GroundingDINO, and highlight their trade-offs between performance, inference speed, and training time. Our results underscore the vital role of data augmentations in bridging the domain gap, improving model performance, robustness, and reliability for critical space applications. As a result, we propose two novel data augmentations specifically developed to emulate the visual effects observed in orbital imagery. We conclude by recommending the most effective augmentations for advancing computer vision in challenging orbital environments. Code for training detectors and hyperparameter search will be made publicly available. 
+                                                    <div class="modal-footer font-italic">
+                                                        IEEE Aerospace Conference, Big Sky, MT, USA, March 2025.
                                                     </div>
                                                 </div>
                                             </div>
@@ -504,17 +509,22 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             M. Görner, J. Cebulsky, A. Dömel, <span class="font-weight-bold">M. Durner</span>, R. Giubilato, M. Kuhne, M. G. Müller, K. Lakatos, P. Lehner, R. Lichtenheldt, B. Rebele, M. Roser, R. Sakagami, Y. Scheeler, M. J. Schuster, M. Schütt, W. Stürzl, M. Vayugundla, and A. Wedler
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            The DLR Moon-Mars Test Site for Robotic Planetary Exploration.
+                                            <a href="" data-toggle="modal" data-target="#abstractModal35">
+                                                The DLR Moon-Mars Test Site for Robotic Planetary Exploration.
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    We propose a novel pipeline for unknown object grasping in shared robotic autonomy scenarios. State-of-the-art methods for fully autonomous scenarios are typically learning-based approaches optimised for a specific end-effector, that generate grasp poses directly from sensor input. In the domain of assistive robotics, we seek instead to utilise the user’s cognitive abilities for enhanced satisfaction, grasping performance, and alignment with their high level task-specific goals. Given a pair of stereo images, we perform unknown object instance segmentation and generate a 3D reconstruction of the object of interest. In shared control, the user then guides the robot end-effector across a virtual hemisphere centered around the object to their desired approach direction. A physics-based grasp planner finds the most stable local grasp on the reconstruction, and finally the user is guided by shared control to this grasp. In experiments on the DLR EDAN platform, we report a grasp success rate of 87% for 10 unknown objects, and demonstrate the method’s capability to grasp objects in structured clutter and from shelves.
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    International Conference on Space Robotics (iSpaRo), Luxembourg, Luxembourg, 24-27 June 2024. 
+                                            <div class="modal fade" id="abstractModal35" tabindex="-1" role="dialog" aria-labelledby="abstractModal35Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel35">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        Building robots for planetary exploration missions requires intensive testing throughout all phases of the design process. Especially, during hard- and software development as well as mission training the process benefits of easy-to-access test sites that offer realistic conditions. For this purpose we have built the 1500 m2 DLR Moon-Mars test site in Oberpfaffenhofen, Germany. The facility provides a large variety of geological formations and ground substrates on a compact terrain as well as a rich set of power and network connections. As a unique feature of the outdoor test site, we prepared a dedicated link to the German Space Operations Center that enables telerobotic experiments from ISS. Furthermore, we provide an optical tracking system for ground truth measurement and control. We describe the design and construction process of the test site and present an overview of its features. Three experiments with our robots LRU1, LRU2 and the Scout rover regarding autonomous navigation and mapping, autonomous manipulation and sampling as well as advanced mobility tests demonstrate the usage of the test site.                                                    </div>
+                                                    <div class="modal-footer font-italic">
+                                                        International Conference on Space Robotics (iSpaRo), Luxembourg, Luxembourg, 24-27 June 2024. 
                                                     </div>
                                                 </div>
                                             </div>
@@ -532,17 +542,23 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             E. Miller, <span class="font-weight-bold">M. Durner</span>, M. Humt, G. Quere, W. Boerdijk, A. M. Sundaram, F. Stulp, and J. Vogel
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            Unknown object grasping for assistive robotics.
+                                            <a href="" data-toggle="modal" data-target="#abstractModal35">
+                                                Unknown object grasping for assistive robotics.
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    We propose a novel pipeline for unknown object grasping in shared robotic autonomy scenarios. State-of-the-art methods for fully autonomous scenarios are typically learning-based approaches optimised for a specific end-effector, that generate grasp poses directly from sensor input. In the domain of assistive robotics, we seek instead to utilise the user’s cognitive abilities for enhanced satisfaction, grasping performance, and alignment with their high level task-specific goals. Given a pair of stereo images, we perform unknown object instance segmentation and generate a 3D reconstruction of the object of interest. In shared control, the user then guides the robot end-effector across a virtual hemisphere centered around the object to their desired approach direction. A physics-based grasp planner finds the most stable local grasp on the reconstruction, and finally the user is guided by shared control to this grasp. In experiments on the DLR EDAN platform, we report a grasp success rate of 87% for 10 unknown objects, and demonstrate the method’s capability to grasp objects in structured clutter and from shelves.
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 13-17 May 2024. 
+                                            <div class="modal fade" id="abstractModal35" tabindex="-1" role="dialog" aria-labelledby="abstractModal35Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel35">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        We propose a novel pipeline for unknown object grasping in shared robotic autonomy scenarios. State-of-the-art methods for fully autonomous scenarios are typically learning-based approaches optimised for a specific end-effector, that generate grasp poses directly from sensor input. In the domain of assistive robotics, we seek instead to utilise the user’s cognitive abilities for enhanced satisfaction, grasping performance, and alignment with their high level task-specific goals. Given a pair of stereo images, we perform unknown object instance segmentation and generate a 3D reconstruction of the object of interest. In shared control, the user then guides the robot end-effector across a virtual hemisphere centered around the object to their desired approach direction. A physics-based grasp planner finds the most stable local grasp on the reconstruction, and finally the user is guided by shared control to this grasp. In experiments on the DLR EDAN platform, we report a grasp success rate of 87% for 10 unknown objects, and demonstrate the method’s capability to grasp objects in structured clutter and from shelves.
+                                                    </div>
+                                                    <div class="modal-footer font-italic">
+                                                        IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 13-17 May 2024. 
                                                     </div>
                                                 </div>
                                             </div>
@@ -560,17 +576,23 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             L. Burkhard, R. Sakagami, K. Lakatos, H. Gmeiner, P. Lehner, J. Reill, M. G. Müller, <span class="font-weight-bold">M. Durner</span>, and A. Wedler
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            Collaborative Multi-Rover Crater Exploration: Concept and Results from the ARCHES Analog Mission.
+                                            <a href="" data-toggle="modal" data-target="#abstractModal34">
+                                                Collaborative Multi-Rover Crater Exploration: Concept and Results from the ARCHES Analog Mission.
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    Access to extreme terrain, like caves or craters, is a key challenge for future planetary exploration robots. Many experimental robotic systems either use innovative locomotion concepts or elaborate mission designs to explore more challenging terrain. However, this requires a highly-specialized task-specific robot design, limiting the scope of the robot’s general application. We investigate an alternative approach, by enabling an existing team of rover systems to crater exploration as an additional opportunistic mission task. The rovers collaborate in a tethered abseiling operation, enhancing the locomotion capabilities of one member of the robotic team. We use our two planetary rover prototypes for crater exploration within the scope of a general multi-purpose multi-robot Moon analog mission. In this paper, we first outline the design of and the modifications to our rover systems and describe the general partial-autonomous setup of the experiment, including the robot collaboration for hooking the tether and the abseiling into the crater. Second, we showcase the feasibility of this concept during a Moon analog campaign on the volcano Mt. Etna, Italy, in 2022. At the site, the rovers successfully access the Cisternazza crater, a crater of approximately 150 m in width and 30 m in depth, featuring steep flanks of partially compacted and partially loose volcanic soil. The experiment showed the feasibility of collaborative manipulation for tethering the two rovers. It additionally demonstrated enhanced rover locomotion capabilities due to the winch, enabling safe crater exploration. We finally discuss the lessons learned from this experiment and the remaining implementation steps to achieve full locally autonomous crater exploration.
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    IEEE Aerospace Conference, Big Sky, MT, USA, 02-09 March 2024 
+                                            <div class="modal fade" id="abstractModal34" tabindex="-1" role="dialog" aria-labelledby="abstractModal34Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel34">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        Access to extreme terrain, like caves or craters, is a key challenge for future planetary exploration robots. Many experimental robotic systems either use innovative locomotion concepts or elaborate mission designs to explore more challenging terrain. However, this requires a highly-specialized task-specific robot design, limiting the scope of the robot’s general application. We investigate an alternative approach, by enabling an existing team of rover systems to crater exploration as an additional opportunistic mission task. The rovers collaborate in a tethered abseiling operation, enhancing the locomotion capabilities of one member of the robotic team. We use our two planetary rover prototypes for crater exploration within the scope of a general multi-purpose multi-robot Moon analog mission. In this paper, we first outline the design of and the modifications to our rover systems and describe the general partial-autonomous setup of the experiment, including the robot collaboration for hooking the tether and the abseiling into the crater. Second, we showcase the feasibility of this concept during a Moon analog campaign on the volcano Mt. Etna, Italy, in 2022. At the site, the rovers successfully access the Cisternazza crater, a crater of approximately 150 m in width and 30 m in depth, featuring steep flanks of partially compacted and partially loose volcanic soil. The experiment showed the feasibility of collaborative manipulation for tethering the two rovers. It additionally demonstrated enhanced rover locomotion capabilities due to the winch, enabling safe crater exploration. We finally discuss the lessons learned from this experiment and the remaining implementation steps to achieve full locally autonomous crater exploration.
+                                                    </div>
+                                                    <div class="modal-footer font-italic">
+                                                        IEEE Aerospace Conference, Big Sky, MT, USA, 02-09 March 2024.
                                                     </div>
                                                 </div>
                                             </div>
@@ -588,17 +610,23 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             M. Ulmer, <span class="font-weight-bold">M. Durner</span>, M. Sundermeyer, M. Stoiber, and R. Triebel
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            6d object pose estimation from approximate 3d models for orbital robotics.
+                                            <a href="" data-toggle="modal" data-target="#abstractModal33">
+                                                6d object pose estimation from approximate 3d models for orbital robotics.
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    We present a novel technique to estimate the 6D pose of objects from single images where the 3D geometry of the object is only given approximately and not as a precise 3D model. To achieve this, we employ a dense 2D-to-3D correspondence predictor that regresses 3D model coordinates for every pixel. In addition to the 3D coordinates, our model also estimates the pixel-wise coordinate error to discard correspondences that are likely wrong. This allows us to generate multiple 6D pose hypotheses of the object, which we then refine iteratively using a highly efficient region-based approach. We also introduce a novel pixel-wise posterior formulation by which we can estimate the probability for each hypothesis and select the most likely one. As we show in experiments, our approach is capable of dealing with extreme visual conditions including overexposure, high contrast, or low signal-to-noise ratio. This makes it a powerful technique for the particularly challenging task of estimating the pose of tumbling satellites for in-orbit robotic applications. Our method achieves state-of-the-art performance on the SPEED+ dataset and has won the SPEC2021 post-mortem competition. Code, trained models, and the used satellite model will be made publicly available.
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, 01-05 October 2023.
+                                            <div class="modal fade" id="abstractModal33" tabindex="-1" role="dialog" aria-labelledby="abstractModal33Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel33">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        We present a novel technique to estimate the 6D pose of objects from single images where the 3D geometry of the object is only given approximately and not as a precise 3D model. To achieve this, we employ a dense 2D-to-3D correspondence predictor that regresses 3D model coordinates for every pixel. In addition to the 3D coordinates, our model also estimates the pixel-wise coordinate error to discard correspondences that are likely wrong. This allows us to generate multiple 6D pose hypotheses of the object, which we then refine iteratively using a highly efficient region-based approach. We also introduce a novel pixel-wise posterior formulation by which we can estimate the probability for each hypothesis and select the most likely one. As we show in experiments, our approach is capable of dealing with extreme visual conditions including overexposure, high contrast, or low signal-to-noise ratio. This makes it a powerful technique for the particularly challenging task of estimating the pose of tumbling satellites for in-orbit robotic applications. Our method achieves state-of-the-art performance on the SPEED+ dataset and has won the SPEC2021 post-mortem competition. Code, trained models, and the used satellite model will be made publicly available.
+                                                    </div>
+                                                    <div class="modal-footer font-italic">
+                                                        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, 01-05 October 2023.
                                                     </div>
                                                 </div>
                                             </div>
@@ -616,20 +644,27 @@
                                         <div> 
                                             <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                                             J. Feng, M. Atad, I. Rodríguez, <span class="font-weight-bold">M. Durner</span>, S. Günnemann, and R. Triebel
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse##" aria-expanded="false" aria-controls="collapse##">
-                                            Density-based feasibility learning with normalizing flows for introspective robotic assembly.
+                                            <a href="" data-toggle="modal" data-target="#abstractModal32">
+                                                Density-based feasibility learning with normalizing flows for introspective robotic assembly.
                                             </a>
-                                            <div id="collapse##" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading##">
-                                                <div class="card card-body">
-                                                    <p class="font-weight-bold mb-2"> Abstract: </p> </br>
-                                                    <p class="mb-3">
-                                                    Machine Learning (ML) models in Robotic Assembly Sequence Planning (RASP) need to be introspective on the predicted solutions, i.e. whether they are feasible or not, to circumvent potential efficiency degradation. Previous works need both feasible and infeasible examples during training. However, the infeasible ones are hard to collect sufficiently when re-training is required for swift adaptation to new product variants. In this work, we propose a density-based feasibility learning method that requires only feasible examples. Concretely, we formulate the feasibility learning problem as Out-of-Distribution (OOD) detection with Normalizing Flows (NF), which are powerful generative models for estimating complex probability distributions. Empirically, the proposed method is demonstrated on robotic assembly use cases and outperforms other single-class baselines in detecting infeasible assemblies. We further investigate the internal working mechanism of our method and show that a large memory saving can be obtained based on an advanced variant of NF.
-                                                    </p>
-                                                    <div class="font-italic">
-                                                    arXiv preprint arXiv:2307.01317
+                                            <div class="modal fade" id="abstractModal32" tabindex="-1" role="dialog" aria-labelledby="abstractModal32Label" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="abstractModalLabel32">Abstract</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                    <div class="modal-body">
+                                                        Machine Learning (ML) models in Robotic Assembly Sequence Planning (RASP) need to be introspective on the predicted solutions, i.e. whether they are feasible or not, to circumvent potential efficiency degradation. Previous works need both feasible and infeasible examples during training. However, the infeasible ones are hard to collect sufficiently when re-training is required for swift adaptation to new product variants. In this work, we propose a density-based feasibility learning method that requires only feasible examples. Concretely, we formulate the feasibility learning problem as Out-of-Distribution (OOD) detection with Normalizing Flows (NF), which are powerful generative models for estimating complex probability distributions. Empirically, the proposed method is demonstrated on robotic assembly use cases and outperforms other single-class baselines in detecting infeasible assemblies. We further investigate the internal working mechanism of our method and show that a large memory saving can be obtained based on an advanced variant of NF.
+                                                    </div>
+                                                    <div class="modal-footer font-italic">
+                                                        arXiv preprint arXiv:2307.01317
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                             arXiv
                                         </div>
                                     </div>
