@@ -10154,3 +10154,14 @@ section.resume-section .resume-section-content {
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* added by madur */
+.fa-pytorch {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg');
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
