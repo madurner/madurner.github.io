@@ -10156,6 +10156,13 @@ section.resume-section .resume-section-content {
 }
 
 /* added by madur */
+.custom-icon {
+    width: 3em;  /* Same size as FontAwesome fa-3x */
+    height: 3em; /* Same size as FontAwesome fa-3x */
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .fa-pytorch {
     content: url('assets/pytorch-icon.png');
     width: 1em;
@@ -10163,30 +10170,4 @@ section.resume-section .resume-section-content {
     display: inline-block;
     vertical-align: middle;
 }
-
-.fa-tensorflow {
-    content: url('assets/tensorflow-icon.png');
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.fa-robotarm {
-    content: url('assets/robots-robot-svgrepo-com.svg');
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.fa-tex {
-    content: url('https://upload.wikimedia.org/wikipedia/commons/6/68/TeX_logo.svg');
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
 
