@@ -10165,3 +10165,13 @@ section.resume-section .resume-section-content {
 }
 
 
+.fa-tex {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/6/68/TeX_logo.svg');
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
